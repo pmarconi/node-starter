@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/pmarconi/node-starter/issues"
   },
-  "homepage": "https://github.com/pmarconi/node-starter#readme"
+  "homepage": "https://github.com/pmarconi/node-starter#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
