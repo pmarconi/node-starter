@@ -1,5 +1,8 @@
 import express from 'express';
 
+// import config from 'config'
+// console.log("config", config)
+
 const app = express();
 const port = 3000;
 
