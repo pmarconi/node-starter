@@ -5,6 +5,10 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import authService from './../services/authentication';
 
+// import UserController from '../controllers/user'
+import UserController from '../models/db'
+import UserController2 from '../models/user'
+
 const router = express.Router();
 
 router.get('/noauth', (req, res) => res.send('Hello Anonymous!'));
